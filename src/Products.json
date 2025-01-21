@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Air Jordan 1 Low G",
+    "detail": "รองเท้าผู้ชาย",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+LOW+(GS).jpg",
+    "price": "฿5,400"
+  },
+  {
+    "id": 2,
+    "name": "Air Jordan 1 Mid",
+    "detail": "รองเท้าผู้หญิง",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+LOW+(GS).png",
+    "price": "฿4,900"
+  },
+  {
+    "id": 3,
+    "name": "Jordan 1 Low Alt",
+    "detail": "รองเท้าผู้ชาย",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+LOW+G.jpg",
+    "price": "฿2,400"
+  },
+  {
+    "id": 4,
+    "name": "Air Jordan 1 Low OG Wolf Grey",
+    "detail": "รองเท้าผู้ชาย",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+LOW+SE.jpg",
+    "price": "฿5,400"
+  },
+  {
+    "id": 5,
+    "name": "Air Jordan 1 Low",
+    "detail": "รองเท้าเด็กโต",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+LOW+SE.png",
+    "price": "฿3,300"
+  },
+  {
+    "id": 6,
+    "name": "Air Jordan 1 Low",
+    "detail": "รองเท้าเด็กโต",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+LOW+SE+(GS).png",
+    "price": "฿3,300"
+  },
+  {
+    "id": 7,
+    "name": "Air Jordan 1 Low SE",
+    "detail": "รองเท้าผู้ชาย",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+MID.png",
+    "price": "฿5,200"
+  },
+  {
+    "id": 8,
+    "name": "Air Jordan 1 Low SE",
+    "detail": "รองเท้าเด็กโต",
+    "coverimage": "src/assets/img/AIR+JORDAN+1+RETRO+LOW+OG.jpg",
+    "price": "฿3,900"
+  },
+  {
+    "id": 9,
+    "name": "Air Jordan 1 Low SE",
+    "detail": "รองเท้าผู้ชาย",
+    "coverimage": "src/assets/img/JORDAN+1+LOW(PS.png",
+    "price": "฿3,900"
+  },
+  {
+    "id": 10,
+    "name": "Jordan 1 Low Alt",
+    "detail": "รองเท้าเด็กเล็ก",
+    "coverimage": "src/assets/img/JORDAN+1+LOW+ALT+(PS).png",
+    "price": "฿2,400"
+  }
+]

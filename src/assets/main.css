@@ -1,0 +1,83 @@
+/* Grid Container */
+.grid-container {
+  display: grid;
+  grid-column-gap: 1rem; /* เพิ่มช่องว่างระหว่างคอลัมน์ */
+  grid-row-gap: 1rem; /* เพิ่มช่องว่างระหว่างแถว */
+  justify-content: center; /* จัดกึ่งกลางกริด */
+  width: 100%; /* เต็มความกว้างของคอนเทนเนอร์ */
+  max-width: 1200px; /* กำหนดความกว้างสูงสุด */
+  margin: 0 auto; /* จัดกึ่งกลางกริด */
+  padding: 0 20px; /* เพิ่ม padding ด้านข้าง */
+}
+
+/* Grid Items */
+.grid-item {
+  background-color: #f5f5f5; /* พื้นหลังสีเทาอ่อน */
+  border-radius: 12px; /* มุมโค้งมน */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* เงาเบาๆ */
+  transition: all 0.3s ease; /* การเคลื่อนไหวที่นุ่มนวล */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px; /* ความสูงที่ปรับขนาดให้เหมาะสม */
+  position: relative;
+  overflow: hidden; /* ไม่ให้เนื้อหาล้นออกนอกกรอบ */
+}
+
+/* Hover Effect */
+.grid-item:hover {
+  background-color: #3498db; /* เปลี่ยนสีพื้นหลังเป็นสีน้ำเงิน */
+  color: white; /* เปลี่ยนสีข้อความเป็นขาว */
+  transform: translateY(-5px); /* ยกการ์ดขึ้นเล็กน้อย */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* เงาที่เด่นชัดขึ้น */
+}
+
+/* Hover Animation for Text */
+.grid-item:hover h3 {
+  transform: scale(1.05); /* ขยายข้อความเมื่อ hover */
+  opacity: 1; /* ทำให้ข้อความชัดเจนขึ้น */
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 576px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr); /* 1 คอลัมน์บนหน้าจอมือถือ */
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 คอลัมน์บนหน้าจอแท็บเล็ต */
+  }
+}
+
+@media (min-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์บนหน้าจอคอมพิวเตอร์ */
+  }
+}
+
+/* Optional: Add a background color for the entire container */
+body {
+  background-color: #ffecd2;
+  font-family: 'Arial', sans-serif; /* ใช้ฟอนต์ที่ดูสะอาดตา */
+  margin: 0;
+  padding: 0;
+}
+
+/* Card Titles (Optional) */
+.grid-item h3 {
+  font-size: 22px; /* ขนาดของข้อความ */
+  font-weight: 600;
+  color: #333; /* สีข้อความเข้ม */
+  opacity: 0; /* ซ่อนข้อความในสถานะเริ่มต้น */
+  transition: all 0.3s ease; /* การเคลื่อนไหวที่นุ่มนวล */
+}
+
+/* Make the grid item text more readable */
+.grid-item p {
+  font-size: 16px;
+  color: #555; /* สีของข้อความ */
+  text-align: center;
+}
