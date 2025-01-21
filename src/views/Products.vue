@@ -8,7 +8,6 @@ import MyCard from '@/views/MyCard.vue';
       <h1>Products</h1>
     </div>
     <div class="grid-container">
-      <!-- Render items dynamically -->
       <MyCard
         v-for="item in items"
         :key="item.id"
@@ -55,7 +54,7 @@ main {
 .tx h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #adedfd;
 }
 
 .grid-container {

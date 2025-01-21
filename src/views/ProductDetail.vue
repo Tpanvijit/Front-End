@@ -65,6 +65,7 @@ const getImageUrl = (path) => {
 .product-description {
   text-align: center;
   max-width: 500px;
+  color: rgb(253, 253, 253);
 }
 
 .product-description h1 {
@@ -79,7 +80,7 @@ const getImageUrl = (path) => {
 
 .product-price {
   font-size: 1.5rem;
-  color: green;
+  color: rgb(248, 3, 3);
   margin-bottom: 20px;
 }
 
@@ -87,7 +88,7 @@ const getImageUrl = (path) => {
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
-  background-color: #007bff;
+  background-color: #8bf890;
   color: white;
   border: none;
   border-radius: 5px;

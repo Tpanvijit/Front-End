@@ -36,7 +36,6 @@ export default {
 </script>
 
 <style scoped>
-
 .app {
   display: flex;
   flex-direction: column;
@@ -45,11 +44,12 @@ export default {
   height: 100vh;
   text-align: center;
   padding: 20px;
-  background-color: #ffecd2;
+  background-color: #121212; 
 }
 
 h1 {
-  color: #ff5722;
+  color: #ffffff;
+  font-size: 2.5rem;
 }
 
 input,
@@ -58,39 +58,50 @@ button {
 }
 
 input {
-  border: 2px solid #ff5722;
-  padding: 8px;
-  border-radius: 4px;
+  border: 2px solid #444; 
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #333; 
+  color: #fff;
 }
 
 button {
-  background-color: #ff5722;
+  background-color: #6200ea; 
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
+  padding: 12px 24px;
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #e64a19;
+  background-color: #3700b3; 
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+  width: 100%;
 }
 
 li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #333; 
+  margin: 5px 0;
+  padding: 12px;
+  border-radius: 8px;
 }
 
 .completed-task {
   text-decoration: line-through;
-  color: #9e9e9e;
+  color: #888; 
+}
+
+input[type="checkbox"] {
+  margin-right: 12px;
 }
 
 @media (max-width: 576px) {
@@ -174,3 +185,4 @@ li {
   }
 }
 </style>
+

@@ -47,12 +47,12 @@ main {
 }
 
 button {
-  padding: 10px 12px;  /* Reduced padding */
-  font-size: 12px;    /* Smaller font size */
+  padding: 10px 12px;  
+  font-size: 12px;    
   cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: white;
+  background-color: rgb(53, 92, 223);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
@@ -66,6 +66,7 @@ ul {
   margin-top: 20px;
   padding: 0;
   list-style-type: none;
+  color: white;
 }
 
 li {
